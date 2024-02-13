@@ -1,0 +1,134 @@
+body {
+  margin: 0; /* Remove default margin to ensure full-width sidebar */
+}
+
+.logo-title-container {
+  margin-bottom: 10px;
+  padding-top: 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 240px; /* Adjust the width as needed */
+  background-color:  #c7e8c9;
+  padding-top: 10px;
+  z-index: 1000; /* Ensure the sidebar is above other content */
+}
+
+.sidebar-sticky {
+  padding-top: 10px;
+}
+
+.nav-link {
+  color: #495057;
+  display: flex !important;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.nav-link:hover {
+  color: #111111;
+}
+
+.nav-item {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 11px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 200px;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-item:hover {
+  background-color: #d9ffcf;
+  border-radius: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:focus {
+  color: #0e3b03 !important;
+}
+
+.housedoor,
+.fileearmark,
+.shieldcheck {
+  font-weight: bold !important;
+}
+
+.admin-profile-container {
+  margin-top: 70px;
+  text-align: center;
+}
+
+.admin-name,
+.admin-position {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  margin-bottom: 0px;
+}
+
+.admin-position {
+  color: #495057;
+  font-size: 10px;
+}
+
+.admin-name {
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 14px;
+  text-decoration: none;
+  color: black;
+}
+
+.admin-profile {
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  display: inline-flex;
+  margin-top: 10px;
+}
+
+.nav-item-logout {
+  margin-top: 30px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 11px;
+}
+
+.dropdown-item {
+  color: #495057;
+  font-size: 10px;
+  width: 100%;
+  color: #000;
+}
+
+.dropdown-item:hover {
+  background-color: #fff;
+  border-radius: 8px;
+  width: 100%;
+  font-weight: bold;
+}
+
+.dropdown-menu {
+  background-color: #ebffe5;
+}
+
+/* Add more styles as needed */

@@ -1,0 +1,41 @@
+.page-title-container {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    position: fixed;
+    top: 0;
+    left: 240px; /* Adjust based on the width of the sidebar */
+    width: calc(100% - 240px); /* Adjust based on the width of the sidebar */
+    height: 110px; /* Adjust the height as needed */
+    background-color: #ffffff; /* Example background color */
+    border-bottom: 1px solid #ddd; /* Example border */
+    display: flex;
+    align-items: flex-start;
+    z-index: 1000; /* Ensure the container is above the sidebar */
+  }
+  .page-title {
+    font-size: 30px;
+    display: flex;
+    justify-content: flex-start;
+    font-weight: bold;
+    font-family: sans-serif;
+  }
+  
+  .page-date {
+    display: flex;
+    font-size: 15px;
+    justify-content: flex-start;
+    font-family: sans-serif;
+    color: gray;
+  }
+
+  .admin-profile-container{
+    margin: 0;
+    padding: 0;
+
+  }
+
+  
+
+  
+  

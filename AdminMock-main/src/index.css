@@ -1,0 +1,4 @@
+body {
+  background-color: #ebffe5;
+  margin: 0; /* Remove default margin to ensure full-width sidebar */
+}
